@@ -1,10 +1,6 @@
 # LLM-Inference-Engine-Benchmark
 A comprehensive benchmarking tool for measuring energy consumption and power efficiency of Large Language Model (LLM) inference engines including vLLM, DeepSpeed, TensorRT-LLM, and Transformers. Featured in HotCarbon '25.
 
-# LLM Energy Benchmark
-
-A comprehensive benchmarking tool for measuring energy consumption and power efficiency of Large Language Model (LLM) inference engines. This work was accepted at **HotCarbon '25**.
-
 ## 🎯 Overview
 
 This tool provides the first systematic evaluation of power consumption across multiple LLM inference engines, offering:
@@ -119,6 +115,14 @@ Our benchmarks on NVIDIA H100 GPUs show:
 | DeepSpeed | 356 | **2.9** | 1063 |
 | Transformers | 711 | **2.9** | 1055 |
 
+Energy Per Token Results: (Heat Map):
+
+![Energy Per Token Results](figures/heatmap.png)
+
+The relationship between throughput and energy per token:
+
+![Energy Per Token Results](figures/Thrroughput_and_energy_per_token.png)
+
 *Results for Llama3.1-8B under High Throughput workload (BS: 256, Tokens: 2000)*
 
 ## 📁 Project Structure
@@ -198,7 +202,7 @@ To add support for a new inference engine:
    - `run_benchmark()`
    - `estimate_tokens()`
 
-## 📄 Citation
+<!-- ## 📄 Citation
 
 If you use this tool in your research, please cite our paper:
 
@@ -210,11 +214,11 @@ If you use this tool in your research, please cite our paper:
   year={2025},
   publisher={ACM}
 }
-```
+``` -->
 
-## 📜 License
+<!-- ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
 
 ## 🔗 Related Work
 
@@ -225,9 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🛟 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/LLM-Energy-Benchmark/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/LLM-Energy-Benchmark/discussions)
-- **Email**: your-email@institution.edu
+- **Email**: ncxhxgtg@gmail.com
 
 ---
 
