@@ -121,7 +121,7 @@ Energy Per Token Results: (Heat Map):
 
 The relationship between throughput and energy per token:
 
-![Energy Per Token Results](figures/Thrroughput_and_energy_per_token.png)
+![Energy Per Token Results](figures/Throughput_and_energy_per_token.png)
 
 *Results for Llama3.1-8B under High Throughput workload (BS: 256, Tokens: 2000)*
 
